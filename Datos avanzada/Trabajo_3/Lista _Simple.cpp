@@ -235,7 +235,7 @@ int main()
                 cin >> posicion;
 
                 Borrar(posicion);
-                cout << "Lista Actual: " <<endl;
+                cout << "Lista Simple Actual: " <<endl;
                 mostrar();
 
                 cout << "Deseas Continuar con el programa( y / n ) en minusculas: " <<endl;

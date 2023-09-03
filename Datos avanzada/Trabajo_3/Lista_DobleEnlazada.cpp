@@ -221,10 +221,10 @@ int main()
 
                 } while (valor != 0);
 
-                cout << "Lista Doblemente Enlazada: " << endl;
+                cout << "Lista Doblemente Enlazada Actual: " << endl;
                 mostrar();
                 cout << "-----------------------------------------------------------------------------------" << endl;
-                cout << "Lista Doblemente Enlazada Inversa: " << endl;
+                cout << "Lista Doblemente Enlazada Inversa Actual: " << endl;
                 mostrarInversa();
 
                 cout << "Deseas Continuar con el programa( y / n ) en minusculas: " <<endl;

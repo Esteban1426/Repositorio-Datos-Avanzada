@@ -177,7 +177,7 @@ nodo*cola = nullptr;
             contador++;
         } while (actual != cabeza);
 
-        cout << "Nodo cabeza: " << actual->num << " " << endl;
+        cout << "Valor del Nodo cabeza: " << actual->num << " " << endl;
         
     }
 
@@ -210,7 +210,7 @@ int main()
 
                 } while (valor != 0);
 
-                cout << "Lista circular: " << endl;
+                cout << "Lista circular Actual: " << endl;
                 mostrar();
 
                 cout << "Deseas Continuar con el programa( y / n ) en minusculas: " <<endl;
