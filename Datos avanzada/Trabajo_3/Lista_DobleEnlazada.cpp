@@ -137,6 +137,10 @@ nodo * cola = nullptr;
                 {
                     actual -> izq -> dere = actual -> dere;
                 }
+                if (actual ->dere == nullptr)
+                {
+                    cola = actual -> izq;
+                }
                 
                 delete borrar;
                 numeroNodos --;
