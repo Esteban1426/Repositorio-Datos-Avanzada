@@ -306,7 +306,7 @@ int main()
                 break;
             }
         }
-    }while(continuar != 'n' && opcion != 7);
+    }while(continuar != 'n' && opcion != 6);
 
     nodo * actual = cabeza;
     while (actual != nullptr)
